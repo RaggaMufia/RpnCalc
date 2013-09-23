@@ -798,7 +798,7 @@ Import the AVFoundation framework by selecting your project root in the
 \begin_deeper
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\small\sffamily}"
+lstparams "basicstyle={\small\ttfamily}"
 inline false
 status open
 
@@ -820,7 +820,7 @@ Add these lines of code to the loudSpekerPressed method:
 \begin_deeper
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\small\sffamily}"
+lstparams "basicstyle={\small\ttfamily}"
 inline false
 status open
 
@@ -882,7 +882,7 @@ Open class CalcViewController.m and add these lines of code:
 \begin_deeper
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\small\sffamily}"
+lstparams "basicstyle={\small\ttfamily},tabsize=4"
 inline false
 status open
 
@@ -933,7 +933,7 @@ Modify your method to reset the model and display the result in the calculator
 \begin_deeper
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\small\sffamily}"
+lstparams "basicstyle={\small\ttfamily},tabsize=4"
 inline false
 status open
 
