@@ -29,16 +29,22 @@
 
 - (BOOL) isEmpty
 {
+    /*
     return [self.array count] == 0;
+     */
+    return true;
 }
 
 - (void) push:(id) item
 {
+    /*
     [self.array addObject:item];
+     */
 }
 
 - (id) pop
 {
+    /*
     if ([self isEmpty]) {
         
         return nil;
@@ -51,16 +57,20 @@
         return item;
 
     }
+     */
+    return nil;
 }
 
 - (NSInteger) size
 {
-    return [self.array count];
+    //return [self.array count];
+    return 0;
 }
 
 - (NSArray*) arrayFromStack
 {
-    return self.array;
+    //return self.array;
+    return nil;
 }
 
 @end
