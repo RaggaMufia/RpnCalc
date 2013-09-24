@@ -8,6 +8,7 @@
 
 #import "CalcViewController.h"
 #import "Computer.h"
+#import <AVFoundation/AVFoundation.h>
 
 
 @interface CalcViewController ()
@@ -47,6 +48,17 @@
     [self updateUI];
 }
 
+- (IBAction)loudSpeakerPressed:(id)sender {
+    
+    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:[self.computer resultText]];
+    utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"en-US"];
+    utterance.rate = 0.3;
+    
+    AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc] init];
+    [synthesizer speakUtterance:utterance];
+}
+
+
 - (void)updateUI
 {
     self.resultView.text = [self.computer resultText];
@@ -56,7 +68,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
     self.computer = [[Computer alloc] init];
     [self updateUI];
 }
@@ -66,5 +77,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void) motionBegann:(UIEventSubtype*) motion withEvent:(UIEvent*)event{
+	if(event.type == UIEventSubtypeMotionShake){
+		NSLog(@"Shake it!");
+	}
+}
+
 
 @end

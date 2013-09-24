@@ -24,6 +24,7 @@
 		43D0EAAB17E3A0EF007672DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D0EA8D17E3A0EE007672DA /* UIKit.framework */; };
 		43D0EAB317E3A0EF007672DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43D0EAB117E3A0EF007672DA /* InfoPlist.strings */; };
 		43D0EAC317E3B4DD007672DA /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D0EAC217E3B4DD007672DA /* Stack.m */; };
+		E8F0DAD917F21B5C00C7DEF6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F0DAD817F21B5C00C7DEF6 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		43D0EAB217E3A0EF007672DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43D0EAC117E3B4DD007672DA /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		43D0EAC217E3B4DD007672DA /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		E8F0DAD817F21B5C00C7DEF6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F0DAD917F21B5C00C7DEF6 /* AVFoundation.framework in Frameworks */,
 				43D0EA8C17E3A0EE007672DA /* CoreGraphics.framework in Frameworks */,
 				43D0EA8E17E3A0EE007672DA /* UIKit.framework in Frameworks */,
 				43D0EA8A17E3A0EE007672DA /* Foundation.framework in Frameworks */,
@@ -129,6 +132,7 @@
 		43D0EA8817E3A0EE007672DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E8F0DAD817F21B5C00C7DEF6 /* AVFoundation.framework */,
 				43D0EA8917E3A0EE007672DA /* Foundation.framework */,
 				43D0EA8B17E3A0EE007672DA /* CoreGraphics.framework */,
 				43D0EA8D17E3A0EE007672DA /* UIKit.framework */,
