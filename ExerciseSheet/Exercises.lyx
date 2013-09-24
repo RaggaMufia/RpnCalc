@@ -1414,13 +1414,13 @@ status open
 
 \begin_layout Plain Layout
 
-AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:@”He
-llo World”]; 
+AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:@"He
+llo World"]; 
 \end_layout
 
 \begin_layout Plain Layout
 
-AVSpeechSynthesizer *synthesizer = [AVSpeechsynthesizer alloc] init]; 
+AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc] init]; 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1486,7 +1486,7 @@ status open
 
 \begin_layout Plain Layout
 
-		NSLog(@”Shake it!”);
+		NSLog(@"Shake it!");
 \end_layout
 
 \begin_layout Plain Layout
