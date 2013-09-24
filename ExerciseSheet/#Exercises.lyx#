@@ -114,7 +114,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/CreateProject.png
-	scale 70
+	scale 50
 
 \end_inset
 
@@ -160,7 +160,6 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/ClassTree.png
-	scale 70
 
 \end_inset
 
@@ -195,7 +194,7 @@ In the folder RpnCalc you can find all the files needed to build a runnable
 
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\small\ttfamily}"
+lstparams "basicstyle={\small\sffamily}"
 inline false
 status open
 
@@ -246,7 +245,6 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/Tests.png
-	scale 70
 
 \end_inset
 
@@ -275,7 +273,6 @@ Unit Test
 \begin_layout Enumerate
 Replace 
 \begin_inset listings
-lstparams "basicstyle={\small\ttfamily}"
 inline false
 status open
 
@@ -288,7 +285,6 @@ XCTFail(...);
 
  with 
 \begin_inset listings
-lstparams "basicstyle={\small\ttfamily}"
 inline false
 status open
 
@@ -336,7 +332,6 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/stack.jpg
-	scale 70
 
 \end_inset
 
@@ -405,7 +400,6 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/StackClass.png
-	scale 70
 
 \end_inset
 
@@ -438,7 +432,6 @@ Add the following method declarations to the Stack.h class.
 \begin_deeper
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\small\ttfamily}"
 inline false
 status open
 
@@ -493,7 +486,6 @@ Declare a mutable array as private property to store the numbers added to
 
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\small\ttfamily}"
 inline false
 status open
 
@@ -531,7 +523,6 @@ Implement the init method of the class
 
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\small\ttfamily}"
 inline false
 status open
 
@@ -578,27 +569,12 @@ status open
 \end_deeper
 \begin_layout Enumerate
 Download the file StackTests.m in the Exercise1.2 Folder of the github repository
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset CommandInset href
-LatexCommand href
-target "https://github.com/pajai/RpnCalc"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-and Drap&Drop the file into the RpnCalcTests folder in the project tree.
+ https://github.com/pajai/RpnCalc and Drap&Drop the file into the RpnCalcTests
+ folder in the project tree.
  Check the option Copy items into destinations group’s folder and choose
  as Target RpnCalcTests.
 \end_layout
 
-\end_deeper
 \begin_layout Enumerate
 Run the all the tests by clicking on Product > Test in the menubar.
  Go to the Testing Navigator where you can verify, that all tests failed.
@@ -612,9 +588,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/TestNavigator.png
-	scale 70
 
 \end_inset
 
@@ -654,17 +633,10 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename images/TestFailure.png
-	scale 70
-
-\end_inset
-
-
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Test failure messages
+Test failure m
 \end_layout
 
 \end_inset
@@ -682,12 +654,6 @@ Test failure messages
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
-Now implement the logic of all the methods in Stack.m until all tests are
- running successfull.
- Hint: The tests reveal some part of the stack logic.
-\end_layout
-
 \begin_layout Section
 UI
 \end_layout
@@ -1527,7 +1493,7 @@ status open
 
 \begin_layout Plain Layout
 
--(void) removeAllObjects;
+–(void) removeAllObjects;
 \end_layout
 
 \end_inset
