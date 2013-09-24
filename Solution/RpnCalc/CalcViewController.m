@@ -72,15 +72,10 @@
     [self updateUI];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 -(void) motionBegann:(UIEventSubtype*) motion withEvent:(UIEvent*)event{
 	if(event.type == UIEventSubtypeMotionShake){
-		NSLog(@"Shake it!");
+		[self.computer reset];
+        [self updateUI];
 	}
 }
 

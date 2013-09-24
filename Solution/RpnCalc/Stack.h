@@ -13,6 +13,7 @@
 - (BOOL) isEmpty;
 - (void) push:(id) item;
 - (id) pop;
+- (void) reset;
 
 - (NSInteger) size;
 - (NSArray*) arrayFromStack;

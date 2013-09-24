@@ -63,4 +63,8 @@
     return self.array;
 }
 
+- (void) reset{
+    [self.array removeAllObjects];
+}
+
 @end

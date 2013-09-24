@@ -13,6 +13,7 @@
 - (void) digitPressed:(NSString*)digitString;
 - (void) operationPressed:(NSString*)operationString;
 - (void) enterPressed;
+- (void) reset;
 
 - (NSString*) resultText;
 

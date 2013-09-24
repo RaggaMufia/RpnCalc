@@ -86,5 +86,10 @@
     return array;
 }
 
+- (void) reset{
+    [self.stack reset];
+    [self.stack push:@0.0];
+}
+
 
 @end
