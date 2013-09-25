@@ -48,8 +48,9 @@
     [self updateUI];
 }
 
-- (IBAction)loudSpeakerPressed:(id)sender {
-    
+
+- (IBAction)loudspeakerPressed:(id)sender {
+   
     AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:[self.computer resultText]];
     utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"en-US"];
     utterance.rate = 0.3;
@@ -57,7 +58,6 @@
     AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc] init];
     [synthesizer speakUtterance:utterance];
 }
-
 
 - (void)updateUI
 {
@@ -67,17 +67,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
     self.computer = [[Computer alloc] init];
     [self updateUI];
 }
 
--(void) motionBegann:(UIEventSubtype*) motion withEvent:(UIEvent*)event{
-	if(event.type == UIEventSubtypeMotionShake){
-		[self.computer reset];
+-(void) motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event{
+    if(event.type == UIEventSubtypeMotionShake){
+		
+        NSLog(@"Detected Shake!");
+        
+        [self.computer reset];
         [self updateUI];
+        
 	}
 }
+
 
 
 @end

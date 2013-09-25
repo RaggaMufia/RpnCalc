@@ -11,8 +11,8 @@
 @interface Stack : NSObject
 
 - (BOOL) isEmpty;
-- (void) push:(id) item;
-- (id) pop;
+- (void) push:(NSNumber*) item;
+- (NSNumber*) pop;
 - (void) reset;
 
 - (NSInteger) size;

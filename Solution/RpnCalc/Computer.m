@@ -70,6 +70,11 @@
     [self.stack push:@0.0];
 }
 
+- (void) reset{
+    [self.stack reset];
+    [self.stack push:@0.0];
+}
+
 - (NSString*) resultText
 {
     NSArray* array = [self.stack arrayFromStack];
@@ -84,11 +89,6 @@
         array = [array subarrayWithRange:range];
     }
     return array;
-}
-
-- (void) reset{
-    [self.stack reset];
-    [self.stack push:@0.0];
 }
 
 

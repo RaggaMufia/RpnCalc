@@ -38,7 +38,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="loudSpeakerPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1Pv-Z4-0sP"/>
+                                    <action selector="loudspeakerPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2p3-Tk-486"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLJ-GK-Mku">

@@ -32,12 +32,12 @@
     return [self.array count] == 0;
 }
 
-- (void) push:(id) item
+- (void) push:(NSNumber*) item
 {
     [self.array addObject:item];
 }
 
-- (id) pop
+- (NSNumber*) pop
 {
     if ([self isEmpty]) {
         
@@ -45,12 +45,14 @@
         
     }
     else {
-
         id item = [self.array objectAtIndex:[self.array count] - 1];
         [self.array removeLastObject];
         return item;
-
     }
+}
+
+- (void) reset{
+    [self.array removeAllObjects];
 }
 
 - (NSInteger) size
@@ -61,10 +63,6 @@
 - (NSArray*) arrayFromStack
 {
     return self.array;
-}
-
-- (void) reset{
-    [self.array removeAllObjects];
 }
 
 @end

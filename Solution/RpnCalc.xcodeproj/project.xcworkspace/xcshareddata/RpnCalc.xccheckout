@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A6F0E376-AB0E-4E54-AE53-C47791ED97C9</string>
+	<string>E891F7D7-BEB0-438D-90F8-907EB301300D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>RpnCalc</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>https://github.com/pajai/RpnCalc.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solution/RpnCalc.xcodeproj/project.xcworkspace</string>
+	<string>Exercise3/RpnCalc.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>210D9F5E-0A2F-4B07-BF33-916086BE5AB6</key>
